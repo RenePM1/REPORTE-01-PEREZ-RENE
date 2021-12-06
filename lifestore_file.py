@@ -1426,7 +1426,3 @@ lifestore_searches = [
     [1032, 95],
     [1033, 95]
 ]
-primeros4 = lifestore_products[:4]
-for producto in primeros4:
-    print(producto)
-#print(primeros4[:4])
