@@ -24,7 +24,7 @@ while Validar_usuario == "Admin" and Validar_contraseña == "EmTech":
     ordenar = Counter(Mayores_ventas)
     #print(ordenar)_Se ordenan los valores de mayor a menor con Counter
     cuantos = int(input('\nIndique el Top # de productos a visualizar:\t'))
-    print(f"Los {cuantos} productos con mayores ventas son: ",ordenar.most_common(cuantos))
+    print(f"Los {cuantos} productos con mayores ventas son: \n",ordenar.most_common(cuantos))
     #Búsquedas
     Mayores_busquedas = []
     for products in lifestore_searches:
@@ -35,7 +35,7 @@ while Validar_usuario == "Admin" and Validar_contraseña == "EmTech":
     orden = Counter(Mayores_busquedas)
     #print(orden)_Se ordenan los valores de mayor a menor con Counter
     Cuantos = int(input('\n\n\nIndique el Top # de productos a visualizar:\t'))
-    print(f"Los {Cuantos} productos con mayores búsquedas son: ",orden.most_common(Cuantos))
+    print(f"Los {Cuantos} productos con mayores búsquedas son: \n",orden.most_common(Cuantos))
     continue
     
   elif opcion == 2:
